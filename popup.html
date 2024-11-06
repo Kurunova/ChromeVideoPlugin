@@ -1,0 +1,18 @@
+<!-- Это HTML-файл для интерфейса плагина, в котором есть текстовое поле для ввода класса и кнопка Run Analysis. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Analysis Tool</title>
+  <style>
+    .video-list { margin-top: 10px; }
+    .video-item { display: flex; justify-content: space-between; margin-bottom: 5px; }
+    .record-button { margin-left: 10px; }
+  </style>
+</head>
+<body>
+  <input type="text" id="className" placeholder="Введите название класса">
+  <button id="runAnalysis">Run Analysis</button>
+  <div id="videoList" class="video-list"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
